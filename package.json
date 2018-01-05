@@ -1,0 +1,20 @@
+{
+  "name": "webpack-prefab",
+  "version": "0.1.0",
+  "description": "Easy, readymade webpack configurations",
+  "main": "index.js",
+  "directories": {
+    "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thornecc/webpack-prefab"
+  },
+  "author": {
+    "name": "Alex Thorne",
+    "email": "alex@thorne.cc",
+    "url": "https://alexthorne.io"
+  },
+  "license": "MIT",
+  "private": false
+}
