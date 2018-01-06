@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "description": "Easy, readymade webpack configurations",
   "main": "index.js",
-  "directories": {
-    "lib"
+  "scripts": {
+    "test": "tape test/*.test.js"
   },
+  "directories": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/thornecc/webpack-prefab"
@@ -16,5 +19,11 @@
     "url": "https://alexthorne.io"
   },
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
 }
