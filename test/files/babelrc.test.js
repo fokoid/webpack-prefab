@@ -1,5 +1,5 @@
 const tape = require('tape')
-const babelrc = require('../lib/babelrc.js')
+const babelrc = require('../../lib/files/babelrc.js')
 
 tape('default babelrc should require babel core and env preset', t => {
   t.same(babelrc().packages, new Set([ '@babel/core', '@babel/preset-env']))

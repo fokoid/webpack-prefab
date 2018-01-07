@@ -4,7 +4,7 @@
   "description": "Easy, readymade webpack configurations",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.test.js"
+    "test": "tape test/{,**/}*.test.js"
   },
   "directories": [
     "lib"
