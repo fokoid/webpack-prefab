@@ -5,7 +5,7 @@ const {
   packageList,
   installList,
   requireList
-}  = require('../lib/dependencies.js')
+} = require('../lib/dependencies.js')
 
 tapeTestCases({
   description: 'importName should give a suitable name for the imported object',
